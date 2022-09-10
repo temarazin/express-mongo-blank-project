@@ -1,0 +1,47 @@
+{
+  "name": "express-mongo-blank-project",
+  "version": "1.0.0",
+  "description": "Base set for express-mongo app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npm eslint .",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/temarazin/express-mongo-blank-project.git"
+  },
+  "keywords": [
+    "mongo",
+    "express",
+    "nodejs"
+  ],
+  "author": "temarazin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/temarazin/express-mongo-blank-project/issues"
+  },
+  "homepage": "https://github.com/temarazin/express-mongo-blank-project#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "celebrate": "^15.0.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-rate-limit": "^6.6.0",
+    "express-winston": "^4.2.0",
+    "helmet": "^6.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.0",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "nodemon": "^2.0.19"
+  }
+}
